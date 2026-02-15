@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .cat {
+      width: 200px;
+      height: 200px;
+      background: orange;
+      margin: 50px;
+    }
+    .cat.dancing-classic {
+      animation: catDance 1.5s ease-in-out infinite !important;
+    }
+    @keyframes catDance {
+      0% { transform: translate(0, 0) rotate(0deg) scale(1); }
+      50% { transform: translate(20px, -30px) rotate(15deg) scale(1.2); }
+      100% { transform: translate(0, 0) rotate(0deg) scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <div class="cat dancing-classic"></div>
+  <p>If the orange box moves, CSS animation works!</p>
+</body>
+</html>

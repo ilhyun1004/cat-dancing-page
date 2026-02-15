@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Cat Body -->
+  <ellipse cx="100" cy="120" rx="45" ry="55" fill="#FF8C42" stroke="#333" stroke-width="2"/>
+
+  <!-- Cat Head -->
+  <circle cx="100" cy="70" r="35" fill="#FF8C42" stroke="#333" stroke-width="2"/>
+
+  <!-- Left Ear -->
+  <path d="M 75 50 L 65 25 L 85 45 Z" fill="#FF8C42" stroke="#333" stroke-width="2"/>
+  <path d="M 75 50 L 70 30 L 82 46 Z" fill="#FFB088"/>
+
+  <!-- Right Ear -->
+  <path d="M 125 50 L 135 25 L 115 45 Z" fill="#FF8C42" stroke="#333" stroke-width="2"/>
+  <path d="M 125 50 L 130 30 L 118 46 Z" fill="#FFB088"/>
+
+  <!-- Left Eye -->
+  <ellipse cx="88" cy="68" rx="6" ry="10" fill="#333"/>
+  <ellipse cx="89" cy="66" rx="2" ry="3" fill="#FFF"/>
+
+  <!-- Right Eye -->
+  <ellipse cx="112" cy="68" rx="6" ry="10" fill="#333"/>
+  <ellipse cx="113" cy="66" rx="2" ry="3" fill="#FFF"/>
+
+  <!-- Nose -->
+  <path d="M 100 78 L 96 83 L 100 82 L 104 83 Z" fill="#FF6B9D"/>
+
+  <!-- Mouth -->
+  <path d="M 100 82 Q 95 88 90 85" stroke="#333" stroke-width="1.5" fill="none"/>
+  <path d="M 100 82 Q 105 88 110 85" stroke="#333" stroke-width="1.5" fill="none"/>
+
+  <!-- Whiskers Left -->
+  <line x1="70" y1="72" x2="45" y2="68" stroke="#333" stroke-width="1.5"/>
+  <line x1="70" y1="78" x2="45" y2="78" stroke="#333" stroke-width="1.5"/>
+  <line x1="70" y1="84" x2="45" y2="88" stroke="#333" stroke-width="1.5"/>
+
+  <!-- Whiskers Right -->
+  <line x1="130" y1="72" x2="155" y2="68" stroke="#333" stroke-width="1.5"/>
+  <line x1="130" y1="78" x2="155" y2="78" stroke="#333" stroke-width="1.5"/>
+  <line x1="130" y1="84" x2="155" y2="88" stroke="#333" stroke-width="1.5"/>
+
+  <!-- Left Arm -->
+  <ellipse cx="70" cy="130" rx="12" ry="30" fill="#FF8C42" stroke="#333" stroke-width="2"/>
+
+  <!-- Right Arm -->
+  <ellipse cx="130" cy="130" rx="12" ry="30" fill="#FF8C42" stroke="#333" stroke-width="2"/>
+
+  <!-- Left Leg -->
+  <ellipse cx="85" cy="165" rx="10" ry="25" fill="#FF8C42" stroke="#333" stroke-width="2"/>
+
+  <!-- Right Leg -->
+  <ellipse cx="115" cy="165" rx="10" ry="25" fill="#FF8C42" stroke="#333" stroke-width="2"/>
+
+  <!-- Tail -->
+  <path d="M 140 125 Q 165 110 170 85 Q 172 70 165 65" stroke="#FF8C42" stroke-width="15" fill="none" stroke-linecap="round"/>
+  <path d="M 140 125 Q 165 110 170 85 Q 172 70 165 65" stroke="#333" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Belly -->
+  <ellipse cx="100" cy="130" rx="28" ry="38" fill="#FFD4B3" opacity="0.6"/>
+</svg>
